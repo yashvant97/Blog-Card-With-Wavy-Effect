@@ -1,0 +1,77 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #111827;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10rem;
+}
+
+.card {
+    border-radius: 10px;
+    height: 25rem;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+}
+
+.card svg {
+    position: absolute;
+    left: 0;
+    top: 120px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.description {
+    padding: 15px;
+    background: white;
+    color: black;
+}
+
+.title {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.description p {
+    font-size: 12px;
+    margin: 5px 0;
+    color: #94a3b8;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.author {
+    display: flex;
+    flex-direction: column;
+}
+
+.authorName {
+    color: black;
+    font-weight: bold;
+}
+
+.date {
+    font-size: 10px;
+}
